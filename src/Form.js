@@ -41,8 +41,7 @@ class Form extends Component {
         dob: this.state.dob
       };
         
-        console.log(form_data);
-
+        alert(JSON.stringify(form_data));
         this.setState({ name: '', email: '', phone: '', dob: '' });
             
         
